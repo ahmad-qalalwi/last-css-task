@@ -1,0 +1,24 @@
+.header .row{
+    justify-content: space-between;
+}
+.headnav{
+    gap: 32px;
+}
+.headnav a{
+    color: #4F4442;
+    font-size: 14px;
+    font-family: Plus Jakarta Sans;
+    
+}
+.vistbutn{
+    padding: 16px 0;
+}
+.vistbutn button {
+    color: #FFF8F3;
+    background-color: #2B1B17;
+    width: 101px;
+    height: 40px;
+    border-radius: 12px;
+   
+}
+    
