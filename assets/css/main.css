@@ -1,17 +1,28 @@
 .header .row{
     justify-content: space-between;
 }
+/* .header{
+    background-color: #FFF8F3;
+} */
+
+body{
+    background-color: #FFF8F3;
+}
+.menu-icon{
+    display: none;
+}
 .headnav{
     gap: 32px;
 }
 .headnav a{
     color: #4F4442;
     font-size: 14px;
-    font-family: Plus Jakarta Sans;
+    font-family: "Plus Jakarta Sans";
     
 }
 .vistbutn{
     padding: 16px 0;
+    transition: transform .2s;
 }
 .vistbutn button {
     color: #FFF8F3;
@@ -19,6 +30,178 @@
     width: 101px;
     height: 40px;
     border-radius: 12px;
-   
+   font-family: "Plus Jakarta Sans";
+   cursor: pointer;
 }
+
+.headnav a:focus{
+    color: #845326;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #845326;
+}
+.vistbutn:active{
+    transform: scale(.9);
+}
+.mainlogo:active{
+    transform: scale(.97);
+}
+.mainlogo{
+    transition: transform .2s;
+}
+.mainlogo h2{
+    font-family: "Playfair Display";
+    font-size: 28px;
+    font-weight:600;
+    color: #0E0402;
     
+}
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap :10px;
+}
+ 
+.mainlogo a img{
+    display: block;
+    width: 100%;
+    height: 100%;
+object-fit: contain;
+}
+.header{
+    cursor: pointer;
+}
+@media screen and (min-width:619px) and (max-width:826px) {
+
+
+
+.headnav{
+    gap: 20px;
+    
+}
+.headnav a{
+    font-size: 12px;
+}
+.vistbutn button {
+    width: 85px;
+    height: 35px;
+    border-radius: 10px;
+  
+}
+/* .mainlogo{
+width: 170px;
+} */
+.mainlogo h2{
+  
+    font-size: 22px;
+    font-weight:600;
+    
+    
+}
+}
+
+@media screen and (min-width:477px) and (max-width:619px) {
+
+.container{
+
+    width: calc( 100% - 46px );
+    margin:auto;
+}
+.headnav{
+    gap: 17px;
+    
+}
+.headnav a{
+    font-size: 10px;
+}
+.vistbutn button {
+    width: 75px;
+    height: 28px;
+    border-radius: 10px;
+  
+}
+/* .mainlogo{
+width: 150px;
+}
+.mainlogo img{
+    width: 100%;
+} */
+.mainlogo h2{
+    font-size: 15px;
+    font-weight:500;
+}
+
+
+.mainlogo a{
+    width:28px;
+
+}
+}
+
+@media screen and (min-width:320px) and (max-width:476px) {
+
+.container{
+
+    width: calc( 100% - 32px );
+    margin:auto;
+}
+.headnav{
+   display: none;
+    
+}
+
+.vistbutn button {
+    width: 71px;
+    height: 28px;
+    border-radius: 4px;
+  
+}
+/* .mainlogo{
+width: 150px;
+}
+.mainlogo img{
+    width: 100%;
+} */
+
+
+.mainlogo h2{
+    font-size: 20px;
+    font-weight:500;
+}
+
+
+.mainlogo a img{
+   display: none;
+
+}
+.mainlogo a::before{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #845326;
+}
+.row2{
+ gap: 6px;
+}
+
+/* .vistbutn::after{
+    content: '☰';
+    display: block;
+   
+} */
+ .menu-icon{
+    display: block;
+    color: #0E0402;
+    font-size: 25px;
+   cursor: pointer;
+ }
+ .row3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+ }
+}
+
