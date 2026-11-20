@@ -1,5 +1,6 @@
 .firstsec{
     padding-top: 91px;
+    margin-bottom: 96px;
 }
 .minip{
     display: none;
@@ -296,10 +297,14 @@ display: none;
 .features2{
     display: block;
      margin-top: 32px;
+     padding: 10px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+      background-color: #FCF2E8;
+    border-radius: 8px;
+    border: 1px solid #d3c3c077;    
 }
 .backgrownd{
     display: none;
@@ -325,6 +330,7 @@ display: none;
 }
 .firstsec{
     padding-top: 16px;
+    margin-bottom: 32px;
 }
 
 
@@ -404,6 +410,7 @@ display: none;
      margin-top: 32px;
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
     align-items: center;
     justify-content: space-between;
     background-color: #FCF2E8;
@@ -434,6 +441,7 @@ display: none;
 }
 .firstsec{
     padding-top: 16px;
+    margin-bottom: 31px;
 }
 
     

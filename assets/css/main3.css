@@ -1,0 +1,250 @@
+.secondsec{
+    background-color: #FCF2E8;
+    overflow: hidden;
+}
+.firspsec2{
+    text-align: center;
+    margin-top: 112px;
+    color: #845326;
+    font-size: 12px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 600;
+}
+.firsth2{
+    text-align: center;
+      margin-top: 8px;
+    color: #0E0402;
+    font-size: 40px;
+    font-family: "Playfair Display";
+    font-weight: 600;
+}
+.secp{
+    text-align: center;
+     margin-top: 16px;
+    color: #4F4442;
+    font-size: 16px;
+    font-family: "Plus Jakarta Sans";
+    font-weight:400;
+}
+.sec2imgs{
+    margin-top: 64px;
+}
+.row5{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 32px;
+}
+.card{
+    width: calc( ( 100% - 64px ) / 3 );
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}   
+.card img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.containerinner{
+    width: calc( 100% - 48px );
+    margin: auto;
+}
+.card h2{
+    margin-top: 24px;
+    color: #0E0402;
+    font-weight: 600;
+    font-family: "Playfair Display";
+    font-size: 20px;
+}
+.card p{
+    margin-top: 8px;
+    color: #4F4442;
+    font-weight:400;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid   #d3c3c042;
+
+}
+.ordernow a{
+    display: block;
+    background-color: #F0E7DD;
+    padding:11px 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+    color: #0E0402;
+    font-family: "Plus Jakarta Sans";
+    font-weight:600;
+    cursor: pointer;
+    transition: all .2s;
+}
+.ordernow{
+    margin-top: 34px;
+    margin-bottom: 24px;
+}
+.ordernow a:active{
+    transform: scale(.95);
+}
+.card{
+    position: relative;
+}
+.ff::after{
+    content: 'Signature';
+    display: block;
+    background-color: rgb(255, 248, 243,90%) ;
+    color: #845326;
+   padding: 4px 12px;
+   font-size: 12px;
+   font-weight: 600;
+   font-family: "Plus Jakarta Sans";
+   border-radius: 12px;
+    top: 16px;
+    left: 16px;
+    position: absolute;
+
+    
+}
+
+.ss::after{
+    content: 'Best Seller';
+    display: block;
+    background-color: rgb(255, 248, 243,90%) ;
+    color: #845326;
+   padding: 4px 12px;
+   font-size: 12px;
+   font-weight: 600;
+   font-family: "Plus Jakarta Sans";
+   border-radius: 12px;
+    top: 16px;
+    left: 16px;
+    position: absolute;
+}
+
+.ll::after{
+    content: 'Barista Choice';
+    display: block;
+    background-color: rgb(255, 248, 243,90%) ;
+    color: #845326;
+   padding: 4px 12px;
+   font-size: 12px;
+   font-weight: 600;
+   font-family: "Plus Jakarta Sans";
+   border-radius: 12px;
+    top: 16px;
+    left: 16px;
+    position: absolute;
+}
+
+.ff::before{
+    content: '$4.50';
+    display: block;
+    background-color:#2B1B17 ;
+    color: #FFF8F3;
+   padding: 4px 12px;
+   font-size: 14px;
+   font-weight:600;
+   font-family: "Plus Jakarta Sans";
+   border-radius: 4px;
+    top:265px;
+    right: 16px;
+    
+    left:auto;
+    position: absolute;
+}
+.ss::before{
+    content: '$5.00';
+    display: block;
+    background-color:#2B1B17 ;
+    color: #FFF8F3;
+   padding: 4px 12px;
+   font-size: 14px;
+   font-weight:600;
+   font-family: "Plus Jakarta Sans";
+   border-radius: 4px;
+    top:265px;
+    right: 16px;
+    
+    left:auto;
+    position: absolute;
+}
+.ll::before{
+    content: '$5.50';
+    display: block;
+    background-color:#2B1B17 ;
+    color: #FFF8F3;
+   padding: 4px 12px;
+   font-size: 14px;
+   font-weight:600;
+   font-family: "Plus Jakarta Sans";
+   border-radius: 4px;
+    top:265px;
+    right: 16px;
+    
+    left:auto;
+    position: absolute;
+}
+/* .ff::before{
+    content: 'Roast Profile';
+    display: block;
+    color: #4F4442;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 600;
+    font-size: 12px;
+    position: absolute;
+    left: 24px;
+    bottom: 110px;
+}
+.ff::before{
+     content: 'Medium Dark';
+    display: block;
+    color: #845326;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 600;
+    font-size: 12px;
+    position: absolute;
+    right: 24px;
+    bottom: 110px;
+} */
+.row6{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+justify-content: space-between;
+padding-top: 8px;
+}
+.roast{
+    color: #4F4442;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 600;
+    font-size: 12px;
+}
+.medium{
+     color: #845326;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 600;
+    font-size: 12px;
+
+}
+.linewhite{
+    position: absolute;
+    display: block;
+    right: 24px;
+    left: 24px;
+    top: 450px;
+    background-color: #F6ECE2;
+    height: 6px;
+ border-radius: 12px;
+ margin-top: 6px;
+ 
+}
+.linebrown{
+    display: block;
+    position:relative;
+    right: auto;
+    left: 0;
+    top: 0;
+width: 80%;
+background-color: #845326;
+height: 6px;
+ border-radius: 12px;
+}
