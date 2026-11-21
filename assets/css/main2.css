@@ -144,23 +144,23 @@ display: none;
     justify-content: center;
     gap: 10px;
 }
-/* .backgrownd,.coffe{
-    width: 100%;
-} */
+
 .backgrownd {
     position: relative;
 }
-
+.backgrownd img{
+    width: 100%;
+}
 .coffe-container {
     position: absolute;
-    top: 27px;
-    left: 5px;
-    width: fit-content;
-    display: inline-block;
-    /* position: relative; */
+   top: 28px;
+   left: 10px;
+   width: 100%;
    
 }
-
+.coffe img{
+    width: 100%;
+}
 .coffe {
     display: block;
 }
@@ -168,9 +168,9 @@ display: none;
 .hov {
     position: absolute;
     top: 0;
-    right: 20px;
-    left: 20px;
-    bottom: 40px;
+    right: 24px;
+    left: 24px;
+    bottom: 46px;
     border-radius: 12px;
     /* background-color: #3d3a3a5b; */
     background-color: #4f444285;
@@ -201,6 +201,36 @@ opacity: 1;
 .coffbutt:active{
     transform: scale(.9);
 }
+
+
+@media screen and (min-width:320px) and (max-width:1224px){
+    
+   
+.hov {
+    position: absolute;
+    top: 0;
+    right: 18px;
+    left: 18px;
+    bottom: 30px;
+
+}
+
+} 
+
+@media screen and (min-width:320px) and (max-width:950px){
+    
+   
+.hov {
+    position: absolute;
+    top: 0;
+    right: 12px;
+    left: 12px;
+    bottom: 27px;
+
+}
+
+} 
+
 
 @media screen and (min-width:320px) and (max-width:988px){
     

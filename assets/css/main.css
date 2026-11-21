@@ -205,4 +205,14 @@ width: 150px;
     gap: 10px;
  }
 }
-
+/* 
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    z-index: 1;
+    
+    background-color:#FFF8F3 ;
+} */
