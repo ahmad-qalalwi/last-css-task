@@ -1,0 +1,409 @@
+
+.about {
+    width: 100%;
+    background-color: #fff9f4;
+    padding: 110px 0;
+}
+
+.aboutbox {
+    width: calc(100% - 96px);
+    max-width: 1180px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 64px;
+}
+
+.imgbox {
+    width: 50%;
+    position: relative;
+}
+
+.img {
+    width: 100%;
+    display: block;
+
+    border: 8px solid #ffffff;
+    border-radius: 16px;
+
+    box-shadow: 0 10px 20px rgba(40, 25, 15, 0.12);
+}
+
+.badge {
+    background-color: #2c1b15;
+    color: #FFDCC2;
+
+    border-radius: 8px;
+    position: absolute;
+}
+
+.desktopbadge {
+    width: 180px;
+    height: 86px;
+
+    right: -20px;
+    bottom: -20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-left: 24px;
+}
+
+.desktopbadge span {
+    font-family: "Playfair Display";
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.desktopbadge small {
+    font-size: 12px;
+    margin-top: 1px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 600;
+}
+
+.mobilebadge {
+    display: none;
+}
+
+.content {
+    width: 50%;
+}
+
+.label {
+    display: inline-block;
+    width: fit-content;
+
+    font-family: "Plus Jakarta Sans";
+    color: #845326;
+    background-color: #F6ECE2;
+
+    border: 1px solid #eadbcf;
+    border-radius: 12px;
+
+    padding: 7px 15px;
+
+    font-size: 12px;
+    font-weight: 500;
+
+    margin-bottom: 28px;
+}
+
+.content h2 {
+    margin: 0;
+
+    color: #180d09;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 40px;
+    line-height: 1.15;
+}
+
+.des {
+    color: #4F4442;
+    font-size: 16px;
+
+    margin: 24px 0 32px;
+
+    font-family: "Plus Jakarta Sans";
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feature {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #8b5127;
+    background-color: #f7eee6;
+
+    border: 1px solid #eadbcf;
+    border-radius: 5px;
+}
+
+.text h3 {
+    color: #211610;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    margin: 0 0 3px;
+}
+
+.text p {
+    color: #635650;
+
+    font-size: 14px;
+    line-height: 1.55;
+
+    margin: 0;
+    max-width: 530px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+
+    margin-top: 38px;
+
+    min-width: 190px;
+    height: 46px;
+
+    padding: 0 25px;
+
+    background-color: #2c1b15;
+    color: #ffffff;
+
+    border-radius: 4px;
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: 500;
+
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: #41271e;
+}
+
+.btn i {
+    font-size: 13px;
+}
+
+.mobileonly,.mobiledesc,.mobiletitle {
+    display: none;
+}
+
+.desktoponly,.desktopdes,.desktitle,.desktopdesc {
+    display: block;
+}
+
+@media screen and (max-width: 900px) {
+
+    .aboutbox {
+        width: calc(100% - 48px);
+        gap: 40px;
+    }
+
+    .content h2 {
+        font-size: 34px;
+    }
+
+    .desktopdes {
+        font-size: 15px;
+    }
+
+    .desktopbadge {
+        width: 155px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .about {
+        padding: 32px 0;
+    }
+
+    .aboutbox {
+        width: calc(100% - 32px);
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 24px;
+
+        align-items: stretch;
+    }
+
+    .imgbox {
+        width: 100%;
+    }
+
+    .img {
+        width: 100%;
+
+        border: 0;
+        border-radius: 12px;
+
+        box-shadow: 0 5px 15px rgba(40, 25, 15, 0.12);
+    }
+
+    .desktopbadge {
+        display: none;
+    }
+
+    .mobilebadge {
+        display: block;
+
+        top: 14px;
+        left: 14px;
+
+        bottom: auto;
+        right: auto;
+
+        width: auto;
+        height: auto;
+
+        padding: 7px 12px;
+
+        border-radius: 8px;
+
+        font-size: 12px;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .desktoponly,
+    .desktopdes,
+    .desktitle,
+    .desktopdesc {
+        display: none;
+    }
+
+    .mobileonly {
+        display: block;
+    }
+
+    .mobileonly p {
+        font-family: "Plus Jakarta Sans";
+    }
+
+    .mobiledesc,.mobiletitle {
+        display: block;
+    }
+
+    .label {
+        background: transparent;
+        border: 0;
+
+        border-radius: 0;
+
+        padding: 0;
+
+        margin: 0 0 10px;
+
+        color: #8a5129;
+
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .label::before {
+        content: "";
+        display: inline-block;
+
+        width: 20px;
+        height: 1px;
+
+        background-color: #b98a67;
+
+        margin-right: 8px;
+
+        vertical-align: middle;
+    }
+
+    .content h2 {
+        font-size: 40px;
+        font-family: "Playfair Display";
+
+        margin-bottom: 12px;
+    }
+
+    .mobiledes {
+        color: #4F4442;
+
+        font-family: "Plus Jakarta Sans";
+
+        font-size: 14px;
+
+        margin: 0 0 20px;
+    }
+
+    .features {
+        gap: 13px;
+    }
+
+    .feature {
+        width: 100%;
+
+        padding: 13px 10px;
+
+        background-color: #fff5ec;
+
+        border: 1px solid #eddfd3;
+        border-radius: 8px;
+
+        gap: 12px;
+    }
+
+    .icon {
+        width: 36px;
+        height: 36px;
+
+        border: 0;
+
+        background-color: #f9eee3;
+    }
+
+    .text {
+        flex: 1;
+    }
+
+    .text h3 {
+        font-size: 14px;
+        margin-bottom: 2px;
+    }
+
+    .text p {
+        font-size: 12px;
+        line-height: 1.45;
+    }
+
+    .btn {
+        width: 100%;
+
+        height: 46px;
+
+        margin-top: 23px;
+
+        background-color: #f6ece3;
+        color: #1e120d;
+
+        border: 1px solid #e6d8cc;
+        border-radius: 4px;
+
+        font-size: 14px;
+    }
+
+    .btn i {
+        display: none;
+    }
+}
