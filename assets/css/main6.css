@@ -1,0 +1,316 @@
+.footer{
+    background-color: #2B1B17;
+}
+.footer .footlog h2{
+    color: #FFF8F3;
+    cursor: pointer;
+}
+.rowpart{
+    width: calc( ( 100% - 144px ) / 4 );
+    margin-bottom: 49px;
+
+
+}
+.mar{
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: space-between;
+    padding-top: 52px;
+}
+.leftp{
+    color: #D3C3C0;
+    font-size: 14px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 400;
+    margin-top: 15px;
+}
+.social{
+    margin-top: 16px;
+    display: flex;
+    gap: 12px;
+}
+.h22{
+    color: #FFF8F3;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-weight: 600;
+}
+.links{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.links a{
+    color: #D3C3C0;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.hours{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hours h3{
+    margin: 0 0 10px;
+    font-size: 14px;
+    font-family: "Plus Jakarta Sans";
+    color: #FFF8F3;
+}
+
+.hours p{
+    color: #D3C3C0;
+    font-size: 14px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 400;
+}
+
+.hours .open{
+    margin-top: 10px;
+    font-weight: 600;
+    color: #FFDCC2;
+    font-family: "Plus Jakarta Sans";
+    position: relative;
+
+}
+.hours .open::after{
+    content: '';
+    display: block;
+position: absolute;
+background-color:#FFDCC2 ;
+width: 9px;
+height: 9px;
+border-radius: 50%;
+left: -15px;
+top: 6px;
+
+}
+
+
+
+
+.news{
+    width: 315px;
+}
+
+.news h3{
+    color: #fff;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-weight: 600;
+
+    margin: 0 0 16px;
+}
+
+.news p{
+    color: #d1c5c0;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    line-height: 1.7;
+
+    margin: 0 0 12px;
+}
+
+.email{
+    display: flex;
+    width: 100%;
+    height: 50px;
+
+    margin-bottom: 10px;
+}
+
+.email input{
+    width: 100%;
+
+    border: 1px solid #57433b;
+    border-radius: 4px 0 0 4px;
+
+    background-color: #41322e;
+    color: white;
+
+    padding: 0 15px;
+
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+
+    outline: none;
+}
+
+.email input::placeholder{
+    color: #cfc3bd;
+}
+
+.email button{
+    width: 70px;
+
+    border: 0;
+    border-radius: 0 4px 4px 0;
+
+    background-color: #9a5d27;
+    color: white;
+
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.news span{
+    color: #b9ada8;
+
+    font-family: "Plus Jakarta Sans";
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+.lastpp{
+    color: #D3C3C0;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+.lastsecfin{
+    width: 100%;
+  
+    padding: 17px 34px 38px;
+}
+
+.footbox{
+    border-top: 1px solid #352824;
+    padding-top: 27px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copy{
+    color: #bdb2ad;
+    font-family: "Plus Jakarta Sans";
+    font-size: 11px;
+    margin: 0;
+}
+
+.links2{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.links2 a{
+    color: #bdb2ad;
+    font-family: "Plus Jakarta Sans";
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.links2 span{
+    color: #5d504b;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 796px){
+.hours{
+    display: none;
+}
+    .news{
+        display: none;
+    }
+    
+.rowpart{
+    width: calc( ( 100% - 80px ) / 2 );
+
+
+}
+
+
+.mar{
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: space-between;
+    padding-top: 52px;
+}
+}
+
+@media screen and (max-width: 600px){
+       .hours{
+    display: none;
+}
+
+.rowpart{
+    width: calc( ( 100% - 80px ) / 2 );
+   
+
+}
+.social{
+    /* flex-direction: column; */
+}
+
+    .leftp{
+        display: none;
+    }
+    .rowpart .h22{
+        display: none;
+    }
+    .hours h3{
+        display: none;
+    }
+    .links2{
+        display: none;
+    }
+    .lastsecfin{
+        padding: 17px 20px 30px;
+    }
+
+    .footbox{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 18px;
+    }
+
+    .links2{
+        gap: 15px;
+    }
+
+    .copy{
+        font-size: 10px;
+    }
+
+    .links2 a{
+        font-size: 9px;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 796px){
+.hours{
+    display: none;
+}
+
+    .news{
+        display: none;
+    }
+    
+.rowpart{
+    width: calc( ( 100% - 80px ) / 2 );
+
+
+}
+}
+/* 
+
+@media screen and (max-width: 600px){
+} */
