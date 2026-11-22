@@ -217,6 +217,13 @@ top: 6px;
     font-size: 10px;
 }
 
+@media screen and (max-width: 1339px){
+ .news{
+        display: none;
+    }
+    
+}
+
 @media screen and (max-width: 796px){
 .hours{
     display: none;
