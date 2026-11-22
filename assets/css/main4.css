@@ -5,9 +5,9 @@
     padding: 110px 0;
 }
 
-.aboutbox {
+.container4 {
     width: calc(100% - 96px);
-    max-width: 1180px;
+    max-width: 1300px;
     margin: 0 auto;
 
     display: flex;
@@ -114,7 +114,7 @@
     font-family: "Plus Jakarta Sans";
 }
 
-.features {
+.features3 {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -206,22 +206,22 @@
 
 @media screen and (max-width: 900px) {
 
-    .aboutbox {
-        width: calc(100% - 48px);
-        gap: 40px;
+.container4 {
+width: calc(100% - 48px);
+    gap: 40px;
     }
 
-    .content h2 {
-        font-size: 34px;
-    }
+.content h2 {
+font-size: 34px;
+}
 
-    .desktopdes {
-        font-size: 15px;
-    }
+.desktopdes {
+font-size: 15px;
+}
 
-    .desktopbadge {
-        width: 155px;
-    }
+.desktopbadge {
+width: 155px;
+}
 }
 
 @media screen and (max-width: 600px) {
@@ -230,7 +230,7 @@
         padding: 32px 0;
     }
 
-    .aboutbox {
+    .container4 {
         width: calc(100% - 32px);
 
         display: flex;
@@ -347,7 +347,7 @@
         margin: 0 0 20px;
     }
 
-    .features {
+    .features3 {
         gap: 13px;
     }
 
