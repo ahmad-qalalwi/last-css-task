@@ -16,8 +16,29 @@
 
     gap: 64px;
 }
-
+.dicover{
+    display: flex;
+    gap: 4px;
+    cursor: pointer;
+    padding: 12px 28px;
+    background-color: #2B1B17;
+    /* color: #FFF8F3; */
+    width: fit-content;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: all .2s;
+}
+.dicover:active{
+    transform: scale(.95);
+}
+.dicover button{
+    color: #FFF8F3;
+    cursor: pointer;
+}
 .imgbox {
+    cursor: pointer;
     width: 50%;
     position: relative;
 }
@@ -245,6 +266,9 @@ width: 155px;
 
 @media screen and (max-width: 600px) {
 
+    .dicover{
+        display: none;
+    }
     .about {
         padding: 32px 0;
     }

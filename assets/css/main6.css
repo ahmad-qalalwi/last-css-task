@@ -173,18 +173,22 @@ top: 6px;
 
 .email button{
     width: 70px;
-
+cursor: pointer;
     border: 0;
     border-radius: 0 4px 4px 0;
 
-    background-color: #9a5d27;
-    color: white;
-
+    background-color: transparent;
+    color:#9a5d27 ;
+    border: 1px solid #9a5d27;
+transition: all .3s;
     font-family: "Plus Jakarta Sans";
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
 }
-
+.email:hover button{
+color: #FFF8F3;
+background-color: #9a5d27;
+}
 .news span{
     color: #b9ada8;
 
