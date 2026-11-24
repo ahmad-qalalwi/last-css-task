@@ -88,6 +88,19 @@ html {
     cursor: pointer;
     transition: all .2s;
 }
+.ordernow a:hover{
+    background-color:#472c14;
+    color:#F0E7DD ;
+}
+.ordernow a:hover .svvg{
+
+    display: none;
+
+}
+.svvg{
+    display: inline;
+}
+
 .ordernow{
     margin-top: 34px;
     margin-bottom: 24px;

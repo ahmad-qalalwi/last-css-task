@@ -87,6 +87,10 @@ margin-top: 24px;
      transition: all .2s;
 
 }
+.tranpearent:hover{
+    background-color:#2B1B17 ;
+    color: #FFF8F3;
+}
 .bott{
     margin-top: 32px;
     border-bottom: 2px solid #ebe9e6;
@@ -491,3 +495,14 @@ right: -8px;
 }
 
 
+
+
+@media screen and (min-width:320px) and (max-width:794px){
+
+
+    .inner{
+    margin-top: 80px;   
+    padding: 6px 14px;
+}
+
+}

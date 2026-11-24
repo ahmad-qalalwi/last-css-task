@@ -31,6 +31,25 @@
 
     box-shadow: 0 10px 20px rgba(40, 25, 15, 0.12);
 }
+.imgbox:hover .badge{
+opacity: 1;
+}
+.imgbox:hover .imghov{
+    opacity: 1;
+}
+.imghov{
+    /* background-color: #2c1b154b; */
+    background-color: #110b0a81;
+    position: absolute;
+    inset: 0;
+opacity: 0;
+    border-radius: 16px;
+transition: all 1s;
+}
+.badge{
+    opacity: 0;
+    transition: opacity 1s;
+}
 
 .badge {
     background-color: #2c1b15;

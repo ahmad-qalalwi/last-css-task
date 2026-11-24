@@ -5,6 +5,15 @@
     color: #FFF8F3;
     cursor: pointer;
 }
+
+.socials{
+        display: none !important;
+    }
+
+.socialb{
+    display: block;
+}
+
 .rowpart{
     width: calc( ( 100% - 144px ) / 4 );
     margin-bottom: 49px;
@@ -24,10 +33,20 @@
     font-weight: 400;
     margin-top: 15px;
 }
-.social{
+
+.socials,.socialb{
     margin-top: 16px;
     display: flex;
     gap: 12px;
+}
+.socials a,.socialb a{
+    transition: all .2s;
+}
+.socialb a:hover{
+    transform: scale(1.2);
+}
+.socials a:hover{
+    transform: scale(1.2);
 }
 .h22{
     color: #FFF8F3;
@@ -47,6 +66,13 @@
     font-family: "Plus Jakarta Sans";
     font-size: 14px;
     font-weight: 400;
+    width: fit-content;
+    padding: 5px;
+}
+.links a:hover{
+    border: 1px solid #D3C3C0 ;
+    border-radius: 6px ;
+
 }
 
 
@@ -142,7 +168,7 @@ top: 6px;
 }
 
 .email input::placeholder{
-    color: #cfc3bd;
+    color: #D3C3C0;
 }
 
 .email button{
@@ -253,15 +279,36 @@ top: 6px;
 }
 
 .rowpart{
-    width: calc( ( 100% - 80px ) / 2 );
+    width: 100%;
    
 
 }
+.mar{
+    flex-direction: column;
+}
+
+.links{
+    border-top: 1px solid #fff8f33d;
+     border-bottom: 1px solid #fff8f33d;
+    padding: 10px 0;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between
+    /* column-gap: 100%; */
+}
+
+
+ .links a{
+    
+     width: 40%;
+    display: block; 
+} 
 .social{
     /* flex-direction: column; */
 }
 
-    .leftp{
+    .leftp span{
         display: none;
     }
     .rowpart .h22{
@@ -295,12 +342,27 @@ top: 6px;
         font-size: 9px;
     }
 
+
+
+    .socials{
+        display: block  !important;
+    }
+
+.socialb
+{
+    display: none;
+}
+
+.rowpart{
+    margin-bottom: 0;
+}
+
 }
 
 
 
 
-
+/* 
 
 @media screen and (max-width: 796px){
 .hours{
@@ -310,14 +372,6 @@ top: 6px;
     .news{
         display: none;
     }
-    
-.rowpart{
-    width: calc( ( 100% - 80px ) / 2 );
-
-
-}
-}
-/* 
-
-@media screen and (max-width: 600px){
+  
 } */
+ 

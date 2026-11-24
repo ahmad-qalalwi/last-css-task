@@ -136,20 +136,22 @@
 .btn4{
     height: 42px;
     min-width: 155px;
-
-    border: 0;
+    border: 1px solid #9a5d27;
     border-radius: 4px;
-
-    background-color: #9a5d27;
-    color: #FFFF;
-
+    color: #9a5d27;
     font-family: "Plus Jakarta Sans";
     font-size: 13px;
     font-weight: 600;
-
     cursor: pointer;
+    transition: all .4s;
 }
-
+.btn4:hover{
+    color: #FFFF;
+    background-color: #9a5d27;
+}
+.btn4:active{
+    transform: scale(.95);
+}
 
 @media screen and (max-width: 900px){
 
@@ -236,7 +238,7 @@
 
     .smalldesc4{
         display: block;
-color: "#F0E7DD";
+     color: #F0E7DD;
         top: 117px;
 font-family: "Plus Jakarta Sans";
         font-size:14px;
